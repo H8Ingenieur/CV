@@ -1,0 +1,141 @@
+/* Partie PAGE MON CV*/
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+ .entete{
+    background-color: #1b3a5e;
+    height: 200px;
+    color: white;  
+}
+.lineEntete{
+    padding: 20px; 
+}
+.ligne{
+    background-color:  rgb(181, 198, 204);
+    height: 18px;
+}
+
+.colAnnee{
+    background-color:#1b3a5e;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 7px;
+    color: white;
+}
+
+.colExperience{
+    background-color: white;
+    padding-top: 7px;
+}
+
+.colCompetence{
+    background-color:#1b3a5e;
+     
+    padding-top: 25px;
+}
+
+.Postes{
+    font-weight: bold;    
+}
+ 
+.ligneExp{
+     
+    border-style: none;
+    border-top-style: dotted;
+    border-color:#1b3a5e;
+     size: 10;
+     
+}
+
+.colCompLogo{
+    text-align: center;
+    border-color: white;
+    background-color: white;
+    border-radius: 10px
+      
+}
+td{
+    color: white;
+}
+.colCompetence p{
+    color: white;
+}
+table{
+    width: 350px;
+    cellspacing: 10;
+}
+/* Partie PAGE CONTACT ME*/
+.headi{
+    background-color: #1b3a5e;
+    text-align: center;
+    height: 200px;
+    padding-top: 80px;
+    color: white;
+
+}
+.call{
+    background-color:rgb(185, 188, 189);
+    height: 100%;
+}
+.cal{
+    text-align: center;
+    justify-content: left;
+    color: white;
+    padding-top: 30px;
+}
+#btn{
+    margin-bottom: 18px;
+    margin-top: 10px;
+    width: 610px;
+    font-weight: bold;
+    color: white;
+    background-color: #1b3a5e;
+    border-radius: 10px;
+    
+}
+#entrer{
+    word-spacing: 10px;
+}
+form div{
+    color: black;
+    font-weight: bold;
+}
+.entr{
+    border-radius: 10px;
+}
+/*Changement de couleus au moment du survol des liens*/
+a{
+    color: yellow;
+    font-style: italic;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+/*Animation au niveau de la page MyPortFolio*/
+
+.cerc{
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+
+}
+.cercl{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: black;
+    animation-name: H-animation;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes H-animation {
+    0%{transform: scale(0);};
+    50%{transform: scale(1);};
+    100%{transform: scale(0);};
+}
